@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    border: 1px solid silver;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.image{
+    width: 100px;
+    border-radius: 0 10px 10px 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3px;
+    direction: rtl;
+}
+.iconbox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: .3rem;
+    margin: .5rem;
+}

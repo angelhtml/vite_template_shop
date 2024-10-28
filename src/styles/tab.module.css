@@ -1,0 +1,22 @@
+.tab_conatiner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    border-top: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tabs button{
+    font-size: 1.3rem;
+    font-family: lalezar;
+    margin-bottom: 1rem;
+}

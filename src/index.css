@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "nazanin";
+src: local("../public/fonts/Far_Nazanin.ttf"),
+url("../public/fonts/Far_Nazanin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lalezar";
+src: local("../public/fonts/Lalezar-Regular.ttf"),
+url("../public/fonts/Lalezar-Regular.ttf") format("truetype");
+}
+
+:root {
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --chakra-colors-chakra-body-bg: white !important;
+  --chakra-colors-chakra-body-text: black !important;
+}
+.chakra-ui-dark .css-1j4pyn0:not([data-theme]), [data-theme=dark] .css-1j4pyn0:not([data-theme]), .css-1j4pyn0[data-theme=dark] {
+  --drawer-bg: white !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: red;
+}
+
+body {
+  margin: 0;
+  display: block;
+  background-color: white;
+  font-family: nazanin !important;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h2{
+  font-size: 1.6rem;
+}
+
+button {
+  outline: none;
+}
+button:focus,
+button:focus-visible {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+
+
+.main_button{
+  background-color: red;
+  color: white;
+  font-size: 1.4rem;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+
+.wrap_container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 99%;
+  margin-left: .5%;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  gap: .5rem;
+}
+
+
+/* banner1 */
+.banner1{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.banner1 img{
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: fill; 
+    border-radius: 10px;
+    border: 1px solid rgb(227, 227, 227);
+}
+.banner1_content{
+  position: relative;
+  top: -15rem;
+  direction: rtl;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.banner1_content h3{
+  font-family: lalezar;
+  font-size: 2.5rem;
+}
+.banner1_content a{
+  background-color: red;
+  font-size: 1.3rem;
+  color: white;
+  padding: .4rem 2rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px){
+  .banner1_content{
+    top: 0rem;
+    width: 100%;
+    margin: 0% !important;
+  }
+}
+
+

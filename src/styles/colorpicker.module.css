@@ -1,0 +1,20 @@
+.color_container{
+    display:  flex;
+    gap: .5rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+.color_button{
+    width: 45px;
+    height: 45px;
+    border-radius: 360px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 5px 5px 1px silver;
+    transition: all .3s ease-in;
+}
+.check{
+    color: rgb(0, 206, 0);
+    font-size: 2.1rem;
+    width: 45px;
+    height: 45px;
+}

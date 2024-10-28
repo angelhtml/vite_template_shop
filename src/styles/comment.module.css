@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.box1{
+    flex: 100%;
+}
+.box2{
+    content: '';
+}
+
+.profile_pic{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 180px;
+}
+
+.user_info{
+    display: flex;
+    direction: rtl;
+    padding: .2rem .8rem;
+    gap: .8rem;
+    align-items: center;
+}
+.user_info p{
+    font-family: Lalezar;
+    color: #324d67;
+    font-size: 1.2rem;
+}
+.user_info span{
+    font-family: nazanin;
+    color: #696969;
+    font-size: 1rem;
+}
+
+.rates{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 .7rem;
+}
+
+.message{
+    direction: rtl;
+    padding: .8rem;
+}
+
+.actions{
+    display: flex;
+    gap: 2rem;
+}
+
+.replay_button{
+    display: flex;
+    align-items: center;
+    color: #696969;
+    margin: .7rem 0;
+    padding: 0 .6rem;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+.replay_button:hover{
+    background-color: rgb(237, 237, 237);
+}
+

@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.counter{
+    display: flex;
+    border: 1px solid #ffffff;
+    box-shadow: 0 5px 5px 1px silver;
+    justify-content: center;
+    align-items: center;
+    /*buttons size times 2 and plus input width*/
+    width: calc(3.2rem * 2 + 4.87rem);
+    border-radius: 180px;
+    gap: .3rem;
+    margin-top: 2rem;
+}
+.button{
+    background: rgb(50,77,103);
+background: radial-gradient(circle, rgba(50,77,103,1) 0%, rgba(50,55,103,1) 100%);
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 360px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.counter_input{
+    background: transparent;
+    font-size: 1.4rem;
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    font-family: Lalezar;
+}
+.counter_input:focus{
+    outline: none;
+}
