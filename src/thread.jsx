@@ -1,16 +1,16 @@
 import threadStyle from "./styles/thread.module.css";
-import { useEffect, useRef, useState } from 'react';
-import ReactStars from 'react-stars'
+import { useEffect } from 'react';
+import ReactStars from 'react-stars';
 
 
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ColorPicker from "./components/colorPicker";
-import { FaStar } from "react-icons/fa6";
 import Counter from "./components/counter";
 import { useParams } from "react-router-dom";
-import { FaTelegram, FaTelegramPlane } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import Comment from "./components/comment";
+import { BiShoppingBag } from "react-icons/bi";
 
 
 
@@ -84,17 +84,24 @@ export default function Thread(){
             <div id="app" className={threadStyle.container}>
 
                 <div className={threadStyle.box1}>
+
                   <div className={threadStyle.box1_content}>
                     <h1 className={threadStyle.title}>هدفون</h1>
                     <div className={threadStyle.pricebox}>
                       <span className={threadStyle.offprice}>1,000,000 تومان</span>
                       <span className={threadStyle.price}>10,000,000 تومان</span>
                     </div>
-                    <div className={threadStyle.stars}><span>(24)</span><ReactStars edit={false} value={4.5} count={5} size={30} color2={'red'} /></div>
+                    <div className={threadStyle.stars}><span> امتیاز (4.5)</span><ReactStars edit={false} value={4.5} count={5} size={30} color2={'red'} /></div>
+                    <p className={threadStyle.scores}><u>10</u> نفر به این محصول امتیاز داده اند</p>
                     <ColorPicker Select={(i) => console.log(i)} colors={["purple", "blue", "gold","pink"]}/>
                     <Counter Getcount={(i) => console.log(i)}/>
+                    <div className={threadStyle.button_container}>
+                      <button className={threadStyle.addcart_button}>  <BiShoppingBag /> خرید</button>
+                    </div>
+                    
                     <p className={threadStyle.description}>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
                   </div>
+
                 </div>
 
                 <div className={threadStyle.box2}>
