@@ -54,6 +54,30 @@
     align-items: center;
     gap: .7rem;
 }
+.scores{
+    direction: rtl;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.button_container{
+    direction: rtl;
+    margin-top: 1.5rem;
+}
+.addcart_button{
+    background-color: #324d67;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 3rem;
+    border-radius: 5px;
+    font-weight: 700;
+    box-shadow: 0 5px 5px 1px silver;
+    &:hover{
+        background-color: #2d455c;
+    }
+}
 
 .comment_container{
     width: 95%;
@@ -90,7 +114,7 @@
 }
 .send_button{
     display: flex;
-    background: rgb(50,77,103);
+    background: #324d67;
     background: linear-gradient(0deg, rgba(50,77,103,1) 0%, rgba(53,50,103,1) 100%);
     box-shadow: 0 5px 5px 1px silver;
     color: white;
@@ -114,6 +138,12 @@ background: linear-gradient(90deg, rgba(50,77,103,0) 0%, rgba(50,77,103,1) 50%, 
         flex-direction: column-reverse;
     }
     .spacer{
-        height: 35rem;
+        height: 4rem;
+    }
+    .box1_content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }

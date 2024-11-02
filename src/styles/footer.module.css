@@ -6,6 +6,9 @@
     flex-wrap: wrap;
     margin-top: 2rem;
     overflow: hidden;
+    z-index: 0;
+    position: relative;
+    bottom: 0;
 }
 .box1{
     width: 22rem;

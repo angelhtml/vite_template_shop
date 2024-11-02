@@ -33,6 +33,7 @@ export default function Navigation({navigateHandeler}){
                 <IoIosSearch style={{scale:.8}} className={NavStyle.icon}/>
                 <span>جست و جو</span>
             </button>
+
         </div>
     )
 }

@@ -1,7 +1,6 @@
 import NavbarStyle from "../styles/navbar.module.css";
 import { AiOutlineShopping } from "react-icons/ai";
 import { FaRegUser, FaSearch } from "react-icons/fa";
-import { IoIosSearch } from "react-icons/io";
 import {
     Drawer,
     DrawerBody,
@@ -17,7 +16,7 @@ import { useRef, useState } from "react";
 import ArticleCase from "./articleCase";
 import {Link} from 'react-router-dom';
 import Navigation from "./Navigation";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Navbar({logo,name,cart}){
 

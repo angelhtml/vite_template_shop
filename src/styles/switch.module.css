@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+    padding: .5rem;
+    align-items: center;
+}
+
+.container span{
+    font-family: Lalezar;
+    font-size: 1.1rem;
+    margin-right: .6rem;
+}

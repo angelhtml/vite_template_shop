@@ -121,6 +121,7 @@ button:focus-visible {
   border-radius: 10px;
 }
 
+
 @media screen and (max-width: 1100px){
   .banner1_content{
     top: 0rem;
