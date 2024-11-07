@@ -28,6 +28,13 @@ url("../public/fonts/Lalezar-Regular.ttf") format("truetype");
   --drawer-bg: white !important;
 }
 
+.chakra-ui-dark .css-p27qcy:not([data-theme]), [data-theme=dark] .css-p27qcy:not([data-theme]), .css-p27qcy[data-theme=dark] {
+  --switch-bg: #d0d0d0 !important;
+}
+.chakra-ui-dark .css-p27qcy[aria-checked=true]:not([data-theme]), .chakra-ui-dark .css-p27qcy[data-checked]:not([data-theme]), [data-theme=dark] .css-p27qcy[aria-checked=true]:not([data-theme]), [data-theme=dark] .css-p27qcy[data-checked]:not([data-theme]), .css-p27qcy[aria-checked=true][data-theme=dark], .css-p27qcy[data-checked][data-theme=dark] {
+  --switch-bg: #1279e6 !important;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

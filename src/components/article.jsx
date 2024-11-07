@@ -88,7 +88,7 @@ export default function Article(){
 
             <div className={ArticleStyle.box1}>
                 <div className={ArticleStyle.card_conatiner}>
-                    {data && data.map(i => <ArticleCard id={i.id} title={i.title} price={i.price} colors={i.colors} image={i.image} link={i.link}/>)}
+                    {data && data.map(i => <div key={i.id}><ArticleCard id={i.id} title={i.title} price={i.price} colors={i.colors} image={i.image} link={i.link}/></div>)}
                 </div>
             </div>
 
