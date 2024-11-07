@@ -24,6 +24,13 @@
     border: 2px solid #f1f1f1;
     border-radius: 10px;
     padding: .8rem;
+    background-color: white;
+}
+.inputs::placeholder{
+    color: grey;
+}
+.inputs:focus{
+    outline: 2px solid black;
 }
 
 .select{

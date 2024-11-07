@@ -11,7 +11,7 @@ export default function ToggelSwitch({title,Callback}){
     }
     return(
         <div className={switchStyle.container}>
-            <Switch onChange={() => Handler(!on)}/>
+            <Switch invalid onChange={() => Handler(!on)}/>
             <span>{title}</span>
         </div>
     )
